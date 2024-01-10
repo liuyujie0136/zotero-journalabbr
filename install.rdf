@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!-- 这里主要是在插件页面定义一些描述信息 -->
+<RDF:RDF
+  xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+  xmlns:NC="http://home.netscape.com/NC-rdf#"
+  xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  
+  <RDF:Description 
+        RDF:about ="urn:mozilla:install-manifest"
+      em:id="journal-abbr-for-Zotero@zoushucai.github.io"
+      em:name="Journal Abbr for Zotero"
+      em:version="0.3.1.3"
+      em:type="2"
+      em:creator="zsc"
+      em:description="该插件用于更新期刊缩写"
+      em:homepageURL="https://github.com/zoushucai/zotero-journalabbr">
+      <em:type>2</em:type>
+      
+
+      <em:targetApplication>
+          <Description>
+              <em:id>zotero@chnm.gmu.edu</em:id>
+        <em:minVersion>5.0.0</em:minVersion>
+        <em:maxVersion>*</em:maxVersion>
+          </Description>
+      </em:targetApplication>
+	     <em:localized>
+      <Description>
+        <em:locale>en-US</em:locale>
+        <em:name>Journal Abbr for Zotero</em:name>
+        <em:description>The plug-in updates journal abbreviations</em:description>
+        <em:homepageURL>https://github.com/zoushucai/zotero-journalabbr</em:homepageURL>
+      </Description>
+    </em:localized>
+	<em:localized>
+		<Description>
+			<em:locale>zh-CN</em:locale>
+			<em:name>Journal Abbr for Zotero</em:name>
+			<em:description>该插件用于更新期刊缩写</em:description>
+       <em:homepageURL>https://github.com/zoushucai/zotero-journalabbr</em:homepageURL>
+		</Description>
+	</em:localized> 
+  </RDF:Description>
+</RDF:RDF>
