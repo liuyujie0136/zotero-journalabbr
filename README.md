@@ -6,7 +6,7 @@
 
 ## Updates
 
-All updates have been tested in Zotero 6 (v6.0.30), on Windows 10 Professional Education version 2009
+All updates have been tested in Zotero 6 (v6.0.30), on Windows 10 Professional Education version 22H2
 
 ### 2023.03.10, v0.3.1.1
 - Remove useless functions and modify entries in right-click menu for clarity
@@ -18,6 +18,8 @@ All updates have been tested in Zotero 6 (v6.0.30), on Windows 10 Professional E
 ### 2024.01.04, v0.3.1.3
 - Fix some errors in the journal abbreviation list
 
+### 2024.09.14, v0.3.1.4
+- Update journal abbreviations using data from [Science and Engineering Journal Abbreviations | Woodward Library](https://woodward.library.ubc.ca/woodward/research-help/journal-abbreviations/) (see https://blog.csdn.net/m0_61780496/article/details/140050206 for details)
 
 ## Original README
 - 自用, 主要的功能是对 zotero 中的期刊进行缩写
